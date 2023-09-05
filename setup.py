@@ -118,7 +118,9 @@ setuptools.setup(
         'pandas',
         'pygame',
         'reactivex',
-        'tensorflow==2.11.1',
+#        'tensorflow==2.11.1',
+        'tensorflow-macos', #added by myself
+        'tensorflow-metal', #added by myself
         'tensorflow-probability',
         'torch==2.0.1',
         'ray[all]==2.6.1',
